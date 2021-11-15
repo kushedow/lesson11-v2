@@ -1,0 +1,140 @@
+/* Сперва общие правила */
+
+* {
+    box-sizing: border-box
+}
+
+/* Потом селекторы по тегам */
+
+html {
+   font-family: arial;
+}
+
+main {
+    width: 300px;
+    margin: 0px auto;
+}
+
+p {
+
+}
+
+a {
+
+}
+
+/* Колонки */
+
+.row {
+    display: flex;
+}
+.col {
+    flex: auto;
+    }
+
+
+/* Потом селекторы по классам */
+
+.text-input {
+    border: 1px solid #999;
+    padding: 12px 16px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.button {
+
+    padding: 12px 16px;
+    background-color: #554AF0;
+    border-radius: 4px;
+    border: 0px;
+    color: #fff;
+
+}
+
+/* Потом специальные правила по страничкам */
+
+/* Login*/
+
+.input-login {
+
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px 16px;
+    margin: 0px 0px 16px 0px;
+
+}
+
+
+/* Страничка жанров и тегов */
+
+.genre-first {
+    background-color: #E1F5EA;
+    padding: 6px 16px;
+    margin-top: 8px;
+}
+
+.genre-second {
+    background-color: #CBEDFF;
+    padding: 6px 16px;
+    margin-top: 8px;
+    width: 80%;
+}
+
+.genre-third {
+    background-color: #FEF0E3;
+    padding: 6px 16px;
+    margin-top: 8px;
+    width: 33%;
+}
+
+.genre-fourth {
+    background-color: #EBDCF9;
+    padding: 8px 12px;
+    margin-top: 8px;
+    width: 25%;
+}
+
+.tag {
+
+    color: #554AF0;
+    text-decoration: none;
+
+}
+
+/* Страничка популярного */
+
+.cover {
+    width: 85%;
+}
+
+
+/* Страничка подписки  */
+
+.box-green {
+   background-color: #E1F5EA;
+   padding: 16px 16px 4px 16px;
+   margin-bottom: 8px;
+   border-radius: 4px;
+}
+
+.box-purple {
+   background-color: #EBDCF9;
+   padding: 16px 16px 4px 16px;
+   margin-bottom: 8px;
+   border-radius: 4px;
+}
+
+.text-large {
+    font-size: 24px;
+}
+
+.button-link {
+    padding: 12px 16px;
+    background-color: #554AF0;
+    border-radius: 4px;
+    border: 0px;
+    color: #fff;
+    text-decoration: none;
+}
