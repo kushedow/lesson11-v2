@@ -1,0 +1,6 @@
+<p>You can use the following proxy servers: {% for c, pl in proxy_servers.items() %}</p>
+{{ c }}
+	•	{% for p in pl %}
+	•	{{ p }}
+	•	{% endfor %} 
+{% endfor %}
