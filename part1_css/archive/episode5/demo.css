@@ -1,0 +1,11 @@
+.rectangle {
+    width: 600px;
+    height: 450px;
+    background-color: #ebcf5f;
+}
+
+.square {
+    width: 40px;
+    height: 40px;
+    background-color: #29a8d7;
+}

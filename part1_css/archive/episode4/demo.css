@@ -1,0 +1,28 @@
+h1 {
+    color: #ebcf5f;
+}
+
+h1.header {
+    color: #5145b4;
+}
+
+#main-header {
+    color: #ad6ed4;
+}
+
+.header {
+    color: #3db432;
+}
+
+.container h2 {
+    color: #b4324a;
+}
+
+.container .embedded-container h1 {
+    color: #ff0033;
+}
+
+.big-text {
+    font-size: xxx-large;
+    color: #3db432;
+}
