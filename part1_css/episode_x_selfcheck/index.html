@@ -1,0 +1,83 @@
+Селф-чек.
+
+Как подключить CSS-файл в HTML?
+
+<link rel="stylesheet" href="style.css">
+
+Как задать свойства, используя селектор по тегу?
+
+<style>
+  a {property: value;}
+  h1 {property: value;}
+</style>
+
+Как задать цвет и фон? Отступы и поля? Ширину и высоту?
+
+<style>
+
+  /* Цвет и фон*/
+
+  a {color: red;}
+  a {background-color: blue;}
+
+  /* Отступы и поля */
+
+  a {padding: 5px;}
+  a {margin: 20px;}
+
+  /* Ширина и высота */
+
+  a {width: 200px;}
+  a {height: 20px;}
+
+</style>
+
+Как задать границы и закруглить уголки?
+
+<style>
+
+  a {
+  border-style: solid;
+  border-width: 3px;
+  border-color: blue;
+  }
+
+  a {border-radius: 10px;}
+
+</style>
+
+Как задать размер и начертание шрифта?
+
+<style>
+
+  a {font-size: 20px;}
+  a {font-family: Arial}
+
+</style>
+
+Как задать свойство, испольpуя селектор по class элемента?
+
+<style>
+
+  a.button { color: black; }
+  .button { color: black; }
+
+</style>
+
+Как «поставить» 3 элемента в ряд?
+
+Нужно сделать общий класс, который называется роу, внутри него три колонки,
+изменить поток на флексовый и сделать колонки флекс авто, чтобы он автоматичекси подгонял ширину.
+
+<div class="row">
+  <div class="column">Раз</div>
+  <div class="column">Два</div>
+</div>
+
+<style>
+
+    .row { display: flex; }
+    .col { flex: auto}
+
+</style>
+
